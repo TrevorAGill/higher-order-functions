@@ -27,7 +27,7 @@ var sumOfArrayArrow = array1.reduce((sum,number) => sum + number);
 
 //problem: write a function that takes a given string and character and returns the number of times the character appears in the string
 let charCountInString = function(word,letter) {
-  return word.split("").filter((letter) => letter === "s").length;
+  return word.split("").filter((char) => char === letter).length;
 }
 
 charCountInString("mississippi","s");
